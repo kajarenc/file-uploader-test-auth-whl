@@ -41,6 +41,3 @@ with logout_button_column:
     logout_button = st.button("Logout")
     if logout_button:
         st.experimental_user.logout()
-
-
-st.write(st.secrets)
